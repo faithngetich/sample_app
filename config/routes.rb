@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/help'
+
   get 'statoc_pages/home'
 
   get 'statoc_pages/help'
